@@ -11,6 +11,7 @@
 <title>회원가입</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
+<script type="text/javascript" src="c_join_js/c_join_step3.js"></script>
 </head>
 <body>
 <%@include file="../c_common/header.jsp" %>
@@ -29,30 +30,7 @@
 				<p class="tit_txt">
 					성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span>
 				</p>
-				<script type="text/javascript"
-					src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-				<script src="/common/js/weather.js" type="text/javascript"></script>
-				<script src="/common/js/common.js" type="text/javascript"></script>
-				<script type="text/javascript">
-	// 텍스트 롤링(공지사항)
-$(function(){
-	$('#news-container').vTicker({ 
-		speed: 500,
-		pause: 3000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 3
-	});
-        $('#news-container1').vTicker({
-		speed: 700,
-		pause: 4000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 1
-	});
-});
 
-</script>
 
 			</div>
 			<!-- //tit_box : e -->
@@ -92,9 +70,8 @@ $(function(){
 										class="txt_or">*</span> 회원아이디</label></th>
 								<td colspan="3"><input type="text" id="fm_id" name="fm_id"
 									class="" /> <a href="javascript:IDCheckIt();"
-									class="btn_overlap">중복확인</a> <input type="hidden"
-									name="idcheck" id="idcheck"> * 6~15자의 영문, 영문+숫자, 일부
-									특수문자( _ - )만 사용 가능합니다.</td>
+									class="btn_overlap">중복확인</a> <input type="hidden" name="idcheck" id="idcheck"> 
+									* 6~15자의 영문, 영문+숫자, 일부 특수문자( _ - )만 사용 가능합니다.</td>
 							</tr>
 							<tr>
 								<th scope="row" class="ac"><label for="fm_passwd1"><span
@@ -276,7 +253,7 @@ $(function(){
 			</div>
 
 			<div class="btn_box">
-				<a href="javascript:MemberWriteIt();" class="btn_check04">회원가입</a> <a
+				<a href="c_join_step4.jsp" class="btn_check04">회원가입</a> <a
 					href="javascript:MemberWriteFm.reset();" class="btn_check02">초기화</a>
 			</div>
 		</div>

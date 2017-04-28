@@ -28,30 +28,7 @@
 				<p class="tit_txt">
 					성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span>
 				</p>
-				<script type="text/javascript"
-					src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-				<script src="/common/js/weather.js" type="text/javascript"></script>
-				<script src="/common/js/common.js" type="text/javascript"></script>
-				<script type="text/javascript">
-	// 텍스트 롤링(공지사항)
-$(function(){
-	$('#news-container').vTicker({ 
-		speed: 500,
-		pause: 3000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 3
-	});
-        $('#news-container1').vTicker({
-		speed: 700,
-		pause: 4000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 1
-	});
-});
 
-</script>
 
             </div>
             <!-- //tit_box : e -->
@@ -481,7 +458,7 @@ $(function(){
 
 					<!-- //tb_box01 : e -->
 					<div class="btn_box">
-						<a href="javascript:MemberWriteIt();" class="btn_check04">회원가입</a>
+						<a href="c_join_step4.jsp" class="btn_check04">회원가입</a>
 						<a href="javascript:MemberWriteFm.reset();" class="btn_check02">초기화</a>
 					</div>
 				</div>

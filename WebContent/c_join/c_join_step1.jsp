@@ -31,30 +31,7 @@
 				<p class="tit_txt">
 					성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span>
 				</p>
-				<script type="text/javascript"
-					src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-				<script src="/common/js/weather.js" type="text/javascript"></script>
-				<script src="/common/js/common.js" type="text/javascript"></script>
-				<script type="text/javascript">
-	// 텍스트 롤링(공지사항)
-$(function(){
-	$('#news-container').vTicker({ 
-		speed: 500,
-		pause: 3000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 3
-	});
-        $('#news-container1').vTicker({
-		speed: 700,
-		pause: 4000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 1
-	});
-});
 
-</script>
 
 			</div>
 			<!-- //tit_box : e -->
@@ -100,7 +77,7 @@ $(function(){
 						</li>
 					</ul>
 					<div class="btn_box02">
-						<a href="javascript:MemberJoinIt('이랜서','개인');" class="btn_join01">개인회원</a>
+						<a href="f_join_step2.jsp" class="btn_join01">개인회원</a>
 					</div>
 				</div>
 				<!-- //elan_box : e -->
@@ -117,8 +94,7 @@ $(function(){
 						</li>
 					</ul>
 					<div class="btn_box02 btn_box02_lef">
-						<a href="javascript:MemberJoinIt('이랜서','팀');" class="btn_join02">기
-							업</a>
+						<a href="e_join_step2.jsp" class="btn_join02">기업</a>
 					</div>
 				</div>
 				<!-- //elan_box : e -->

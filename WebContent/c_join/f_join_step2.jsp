@@ -11,6 +11,7 @@
 <title>회원가입</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
+<script type="text/javascript" src="c_join_js/f_join_step2.js"></script>
 </head>
 <body>
 <%@include file="../c_common/header.jsp" %>
@@ -29,29 +30,6 @@
         	<div class="tit_box">
             	<h2>회원가입</h2>
                 <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="/common/js/weather.js" type="text/javascript"></script>
-<script src="/common/js/common.js" type="text/javascript"></script>
-<script type="text/javascript">
-	// 텍스트 롤링(공지사항)
-$(function(){
-	$('#news-container').vTicker({ 
-		speed: 500,
-		pause: 3000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 3
-	});
-        $('#news-container1').vTicker({
-		speed: 700,
-		pause: 4000,
-		animation: 'fade',
-		mousePause: false,
-		showItems: 1
-	});
-});
-
-</script>
 
 			</div>
 			<!-- //tit_box : e -->
@@ -890,7 +868,7 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 					type="hidden" name="param_r1" value="드림랜서"> <input
 					type="hidden" name="param_r2" value="개인">
 				<div class="btn_box">
-					<a href="javascript:jsSubmit();" class="btn_check04">회원가입</a>
+					<a href="javascript: jsSubmit();" class="btn_check04">회원가입</a>
 				</div>
 				<input type="hidden" name="in_tp_bit" value="0">
 			</form>
