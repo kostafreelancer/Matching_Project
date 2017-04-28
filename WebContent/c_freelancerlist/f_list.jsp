@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<<<<<<< HEAD:WebContent/list/f_list.jsp
 <link rel="stylesheet" href="../join/join.css" type="text/css"
 	media="screen" />
 <link rel="stylesheet" href="../join/reset.css" type="text/css"
@@ -12,11 +13,18 @@
 	media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css"
 	media="screen" />
+=======
+<link rel="stylesheet" href="../c_join/c_join_css/join.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../c_join/c_join_css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_freelancerlist/f_list.jsp
 <title>프리랜서 목록</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
+<<<<<<< HEAD:WebContent/list/f_list.jsp
 	<%@include file="../common/header.jsp"%>
 	<div id="conainer">
 		<div id="nav">
@@ -222,6 +230,162 @@
 						class="btn_check02">초기화</a>
 				</div>
 			</div>
+=======
+<%@include file="../c_common/header.jsp" %>
+    <div  id="conainer">
+    	<div id="nav">
+        	<div class="nav_txt">
+            	<p>
+                	<a href="/index.php">Home</a>
+                    <span class="padd">&gt;</span>
+                	<span>프리랜서 목록</span>
+            	</p>
+            </div>
+        </div>
+        <!-- //nav : e -->
+        <div id="content">
+        	<div class="tit_box">
+            	<h2>프리랜서 목록</h2>
+                <p class="tit_txt">인성과 실력이 검증된 프리랜서를 찾고 계신가요?<span>검증된 IT 인재, 드림랜서에서 찾아보세요.</span></p>
+            </div>
+            <!-- //tit_box : e -->
+	<div class="project_list_filter" style="float:left">
+            <div class="tb_box">
+				<form style="padding:0px;padding-top:0" action="list.php#Member_list" method="post" name="esearch">
+					<input type="hidden" name="page" value="1" />
+					<input type="hidden" name="fm_str" value="" />
+            	<table class="tb_st02">
+                	<caption>프리랜서 검색 : 개발분야, 디자인/퍼블리싱 분야, 기획/ 컨설턴트 분야, 전문분야/특별경험, 근무희망지역, 등급, 학력, 근무형태, 나이로 구성된 표</caption>
+                  
+                    <tbody>
+                    	<tr>
+                        	<th scope="row"></span><label for="">개발분야</label></th>
+                        </tr>
+                        <tr>
+                            <td class="ct ">
+                            <div  class="che_top_pa">
+                                <ul class="che_list03">
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value=".NET" > .NET</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="ABAP" > ABAP</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="ANDROID" > ANDROID</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="ASP" > ASP</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="ASP.NET" > ASP.NET</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="C" > C</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="C#" > C#</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="C++" > C++</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="COBOL" > COBOL</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="CSS" > CSS</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="DB" > DB</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="DELPHI" > DELPHI</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="HTML" > HTML</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="IOS" > IOS</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="JAVA" > JAVA</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="JS" > JS</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="JSP" > JSP</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="LINUX" > LINUX</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="NETWORK" > NETWORK</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="PHP" > PHP</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="POWER BUILDER"> 파워빌더</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="PYTHON" > PYTHON</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="QA" > QA</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="RUBY" > RUBY</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="SERVER개발" > SERVER개발</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="VB" > VB</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="VC++" > VC++</li>
+												
+													
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="WINDOWS" > WINDOWS</li>
+						                                        <li><input type="checkbox" name="fm_new_keyword[]" value="임베디드" > 임베디드</li>
+													
+						                                </ul>
+                            </div>
+
+                            </td>
+                            </tr>
+                    
+						<tr>
+                        	<th scope="row" class="bg_ye">디자인/퍼블리싱 분야</th>
+                        	</tr>
+                        <tr>
+                            <td class="ct">
+                            <div  class="che_top_pa">
+                                <ul class="che_list03">
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="HTML5" > HTML5</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="그래픽디자인" > 그래픽디자인</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="모바일" > 모바일</li>
+												
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="액션스크립트" > 액션스크립트</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="웹디자인" > 웹디자인</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="웹표준" > 웹표준</li>
+												
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="파워포인트" > 파워포인트</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="퍼블리싱" > 퍼블리싱</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="포토샵편집" > 포토샵편집</li>
+												
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="플래시" > 플래시</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="3D" > 3D</li>
+													
+						                                </ul>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<th scope="row" class="bg_gy">기획/컨설턴트 분야</th>
+                        	</tr>
+                        <tr>
+                            <td  class="ct">
+                            <div  class="che_top_pa">
+                                <ul class="che_list03">
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="Oracle컨설턴트" > <a id="small" >DB컨설턴트</a></li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="PM" > PM</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="PMO" > PMO</li>
+												
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="SAP컨설턴트"  > <a id="small" >SAP컨설턴트</a></li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="기획" > 기획</li>
+													<li><input type="checkbox" name="fm_new_keyword[]" value="모바일기획" > 모바일기획</li>
+												
+													
+													<li><input type="checkbox" name="fm_new_keyword[]" value="웹기획" > 웹기획</li>
+													
+													
+						                                </ul>
+                            </div>
+                            </td>
+                        </tr> 
+                    </tbody>
+                </table>
+				</form>
+            </div>
+            <!-- //tb_box : e -->
+            <div class="ac">
+				<input type="hidden" name="page" value="1" />
+            	<a href="javascript:page_submit('/19_ESERCH/page/list.php#Member_list');" class="btn_check03">검색하기</a>
+                <a href="/19_ESERCH/page/list.php" class="btn_check02">초기화</a>
+            </div>
+	</div>
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_freelancerlist/f_list.jsp
 			</form>
 			<div class="tb_box" id="Member_list"
 				style="float: left; width: 770px;">
@@ -752,6 +916,10 @@ a[href*=view]:after {
 }
 </style>
 
+<<<<<<< HEAD:WebContent/list/f_list.jsp
 	<%@include file="../common/footer.jsp"%>
+=======
+<%@include file="../c_common/footer.jsp" %>
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_freelancerlist/f_list.jsp
 </body>
 </html>

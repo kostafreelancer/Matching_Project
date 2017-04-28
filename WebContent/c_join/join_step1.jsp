@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<<<<<<< HEAD:WebContent/join/join_step1.jsp
 <link rel="stylesheet" href="join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css"
@@ -11,11 +12,22 @@
 <link rel="stylesheet" href="../common/footer.css" type="text/css"
 	media="screen" />
 <title>Insert title here</title>
+=======
+<link rel="stylesheet" href="c_join_css/join.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="c_join_css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+<title>회원가입</title>
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step1.jsp
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
+<<<<<<< HEAD:WebContent/join/join_step1.jsp
 	<%@include file="../common/header.jsp"%>
+=======
+<%@include file="../c_common/header.jsp" %>
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step1.jsp
 
 
 
@@ -140,7 +152,12 @@ $(function(){
 	<!-- footer_wrap : e  -->
 	</div>
 
+<<<<<<< HEAD:WebContent/join/join_step1.jsp
 	<!-- //wrap : e -->
 	<%@include file="../common/footer.jsp"%>
+=======
+<!-- //wrap : e -->
+<%@include file="../c_common/footer.jsp" %>
+>>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step1.jsp
 </body>
 </html>
