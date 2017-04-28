@@ -25,9 +25,9 @@
 		</div>
 		<div class="left_menu_content">
 			<ul class="left_menu_contents">
-				<li><a href="">서비스 소개</a></li>
-				<li><a href="">기업 이용방법</a></li>
-				<li><a href="">프리랜서 이용방법</a></li>
+				<li><a href="service.jsp">서비스 소개</a></li>
+				<li><a href="e_service.jsp">기업 이용방법</a></li>
+				<li><a href="f_service.jsp">프리랜서 이용방법</a></li>
 			</ul>
 		</div>
 	</div>

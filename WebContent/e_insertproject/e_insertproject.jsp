@@ -12,7 +12,12 @@
 	type="text/css" media="screen" />
 <title>Insert title here</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="../common/header.js"></script>
+<script type="text/javascript" src="/Matching_Project/e_insertproject/e_insertproject_js/e_insertproject.js"></script>
+<script type="text/javascript" src="/Matching_Project/c_common/c_common_js/header.js"></script>
+
+
+
+
 </head>
 <body>
 	<%@include file="../c_common/header_enterprise.jsp"%>
@@ -62,7 +67,7 @@
 				<div class="tb_box">
 					<h4>담당자 정보</h4>
 					<table class="tb_st01">
-						<form method="post" name="ProjectWriteFm">
+						<form action="e_finishproject.jsp" method="post" name="ProjectWriteFm">
 							<input type="hidden" name="fm_code" value="상주"> <input
 								type="hidden" name="fm_jobtype" value="상주"> <input
 								type="hidden" name="fm_cuno" value=""> <input
