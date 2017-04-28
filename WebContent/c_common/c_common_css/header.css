@@ -8,7 +8,7 @@ body{
 	width:100%;
 	min-width:980px;
 	margin:0 auto;
-	background:url("/GitPlease/c_common/c_common_img/header_bg.jpg") no-repeat center 0;
+	background:url("/Matching_Project/c_common/c_common_img/header_bg.jpg") no-repeat center 0;
 	height: 340px;
 }
 .header_welcome_content{
@@ -88,7 +88,7 @@ body{
     height: 19px;
     margin-left: 33px;
     text-indent: -9999px;
-    background: url("/GitPlease/images/img_sns.png") no-repeat;
+    background: url("/Matching_Project/images/img_sns.png") no-repeat;
 }
 .header_sns .header_btn_f{
 	background-position: 2px 0px;

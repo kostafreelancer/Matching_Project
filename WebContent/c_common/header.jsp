@@ -5,9 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="/GitPlease/c_common/c_common_css/header.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/Matching_Project/c_common/c_common_css/header.css" type="text/css" media="screen" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="/GitPlease/c_common/c_common_js/header.js"></script>
+<script type="text/javascript" src="/Matching_Project/c_common/c_common_js/header.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -17,20 +17,20 @@
 				</div>
 				<ul	class="header_top_menus">
 					<li>
-						<img alt="center_img" src="/GitPlease/c_common/c_common_img/header_center_icon.jpg">
-						<a href="/GitPlease/member_center/member_centerMain.jsp">고객 센터</a>
+						<img alt="center_img" src="/Matching_Project/c_common/c_common_img/header_center_icon.jpg">
+						<a href="/Matching_Project/member_center/member_centerMain.jsp">고객 센터</a>
 					</li>
 					<li>
-						<img alt="join_img" src="/GitPlease/c_common/c_common_img/header_join_icon.jpg">
-						<a href="/GitPlease/join/join_step1.jsp">회원가입</a>
+						<img alt="join_img" src="/Matching_Project/c_common/c_common_img/header_join_icon.jpg">
+						<a href="/Matching_Project/join/join_step1.jsp">회원가입</a>
 					</li>
 					<li>
-						<img alt="log_img" src="/GitPlease/c_common/c_common_img/header_log_icon01.jpg">
+						<img alt="log_img" src="/Matching/c_common/c_common_img/header_log_icon01.jpg">
 						<a href="/GitPlease/login/login.jsp">로그인</a>
 					</li>
 					<li>
-						<img alt="home_img" src="/GitPlease/c_common/c_common_img/header_home_icon01.jpg">
-						<a href="/GitPlease/f_main/f_main.jsp">홈</a>
+						<img alt="home_img" src="/Matching_Project/c_common/c_common_img/header_home_icon01.jpg">
+						<a href="/Matching_Project/f_main/f_main.jsp">홈</a>
 					</li>
 				</ul>
 					
@@ -54,16 +54,16 @@
 			<div class="header_menu">
 				<ul class="header_menus">
 					<li>
-						<a href="/GitPlease/list/project_list.jsp">프로젝트 목록</a>
+						<a href="/Matching_Project/list/project_list.jsp">프로젝트 목록</a>
 					</li>
 					<li>
-						<a href="/GitPlease/list/f_list.jsp">프리랜서 목록</a>
+						<a href="/Matching_Project/list/f_list.jsp">프리랜서 목록</a>
 					</li>
 					<li>
-						<a href="/GitPlease/mypage_free_jsp/myInfo.jsp">마이페이지</a>
+						<a href="/Matching_Project/mypage_free_jsp/myInfo.jsp">마이페이지</a>
 					</li>
 					<li>
-						<a href="/GitPlease/using_method/f_service.jsp">이용 방법</a>
+						<a href="/Matching_Project/using_method/f_service.jsp">이용 방법</a>
 					</li>
 					
 				</ul>
