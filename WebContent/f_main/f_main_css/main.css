@@ -206,7 +206,7 @@
     -moz-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
     -webkit-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
     box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
-    background-image: url(../lancer_imgs/bg_content01.jpg)
+    background-image: url(../f_main_img/bg_content01.jpg)
 }
 
 #content h2, #content h3
@@ -239,7 +239,7 @@
 }
 
 #active_inf{
-	background-image: url(../lancer_imgs/bg_content01.jpg);
+	background-image: url(../f_main_img/bg_content01.jpg);
 	border: 1px solid;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .main_news{
-	background-image: url(../lancer_imgs/bg_cont05.jpg);
+	background-image: url(../f_main_img/bg_cont05.jpg);
 	
 }
 

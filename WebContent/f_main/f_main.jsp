@@ -51,10 +51,10 @@ function drawMultSeries() {
 	<section id="slides">
 	<div class="main_slide">
 		<div class="slideshow_images">			
-			<a href = "#" class="slide"><img src="lancer_imgs/bg_visual01.jpg" alt="" width="1911" height="432"></a>
-			<a href = "#" class="slide"><img src="lancer_imgs/bg_visual02.jpg" alt="" width="1911" height="432"></a>
-			<a href = "#" class="slide"><img src="lancer_imgs/bg_visual03.jpg" alt="" width="1911" height="432"></a>
-			<a href = "#" class="slide"><img src="lancer_imgs/bg_visual04.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="f_main_img/bg_visual01.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="f_main_img/bg_visual02.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="f_main_img/bg_visual03.jpg" alt="" width="1911" height="432"></a>
+			<a href = "#" class="slide"><img src="f_main_img/bg_visual04.jpg" alt="" width="1911" height="432"></a>
 		</div>
 	</div>
 	
@@ -82,10 +82,10 @@ function drawMultSeries() {
 <div id="content"> 
     <div id="tab1">
         <h2>프리랜서 정보</h2>
-       	<img alt="" src="lancer_imgs/icon01_off.png">
-       	<img alt="" src="lancer_imgs/icon02_off.png">
-       	<img alt="" src="lancer_imgs/icon03_off.png">
-       	<img alt="" src="lancer_imgs/icon04_off.png">
+       	<img alt="" src="f_main_img/icon01_off.png">
+       	<img alt="" src="f_main_img/icon02_off.png">
+       	<img alt="" src="f_main_img/icon03_off.png">
+       	<img alt="" src="f_main_img/icon04_off.png">
        	<form action="" method="post">
        	<table class="active_p">
        	<tr>
@@ -101,10 +101,10 @@ function drawMultSeries() {
     <div id="tab2">
        	<h2>프로젝트 정보</h2>
         
-        <img alt="" src="lancer_imgs/icon01_off.png">
-       	<img alt="" src="lancer_imgs/icon02_off.png">
-       	<img alt="" src="lancer_imgs/icon03_off.png">
-       	<img alt="" src="lancer_imgs/icon04_off.png">
+        <img alt="" src="f_main_img/icon01_off.png">
+       	<img alt="" src="f_main_img/icon02_off.png">
+       	<img alt="" src="f_main_img/icon03_off.png">
+       	<img alt="" src="f_main_img/icon04_off.png">
        	<tr>
        	<td>1 프로젝트DB</td>
        	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -123,10 +123,10 @@ function drawMultSeries() {
 		<h2>드림랜서 시스템 장점</h2><br><br>
 		<div id="introduce_img">
 		
-		<img alt="" src="lancer_imgs/cont04_icon01.png">
-		<img alt="" src="lancer_imgs/cont04_icon02.png">
-		<img alt="" src="lancer_imgs/cont04_icon03.png">
-		<img alt="" src="lancer_imgs/cont04_icon04.png">
+		<img alt="" src="f_main_img/cont04_icon01.png">
+		<img alt="" src="f_main_img/cont04_icon02.png">
+		<img alt="" src="f_main_img/cont04_icon03.png">
+		<img alt="" src="f_main_img/cont04_icon04.png">
 		
 		</div>
 	</div>
