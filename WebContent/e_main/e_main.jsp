@@ -5,12 +5,10 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="../common/header.css">
 <link rel="stylesheet" type="text/css" href="e_main_css/slide.css">
 <link rel="stylesheet" type="text/css" href="e_main_css/news.css">
 <link rel="stylesheet" type="text/css" href="e_main_css/info.css">
 <link rel="stylesheet" type="text/css" href="e_main_css/sponsor.css">
-<link rel="stylesheet" type="text/css" href="../common/footer.css">
 
 <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
