@@ -25,8 +25,8 @@
 						<a href="/Matching_Project/join/join_step1.jsp">회원가입</a>
 					</li>
 					<li>
-						<img alt="log_img" src="/Matching/c_common/c_common_img/header_log_icon01.jpg">
-						<a href="/GitPlease/login/login.jsp">로그인</a>
+						<img alt="log_img" src="/Matching_Project/c_common/c_common_img/header_log_icon01.jpg">
+						<a href="/Matching_Project/login/login.jsp">로그인</a>
 					</li>
 					<li>
 						<img alt="home_img" src="/Matching_Project/c_common/c_common_img/header_home_icon01.jpg">
