@@ -73,6 +73,7 @@
 		
 		
 		
+		
 		 2px 2px 2px rgba(0, 0, 0, .4);
 	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
@@ -344,9 +345,9 @@ h1 {
 	font-size: 20px;
 	text-align: left;
 	line-height: 20px;
-	background:url(../FAQ/bg_btn_ok.jpg) no-repeat;
-	color:#fff;
-	padding-left:50px; 
+	background: url(../FAQ/bg_btn_ok.jpg) no-repeat;
+	color: #fff;
+	padding-left: 50px;
 	margin-left: 45%;
 	margin-top: 70px;
 }

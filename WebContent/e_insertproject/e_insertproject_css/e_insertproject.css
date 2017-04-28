@@ -7,8 +7,7 @@ body, p, h1, h3, h4, h5, h6, ol, li, dl, dt, dd, table, th, td, form,
 	fieldset, legend, input, textarea, button, select {
 	/* color: #333; */
 	margin: 0;
-    padding: 0; 
-	
+	padding: 0;
 }
 
 body, input, textarea, select, button, table {
@@ -1527,15 +1526,19 @@ a.read_more {
 .nav_txt p {
 	float: right
 }
-.nav_txt span:LAST-CHILD{
+
+.nav_txt span:LAST-CHILD {
 	color: black;
 }
+
 .padd {
 	padding: 0 3px
 }
-.left_menu{
+
+.left_menu {
 	padding-top: 40px;
 }
+
 .login_cont {
 	width: 880px;
 	margin: 0 auto;
@@ -1775,7 +1778,6 @@ a.read_more {
 .market {
 	margin-bottom: 55px;
 }
-
 
 .market_txt01 {
 	font-size: 28px;
