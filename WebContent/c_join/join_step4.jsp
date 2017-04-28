@@ -4,49 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD:WebContent/join/join_step4.jsp
-<link rel="stylesheet" href="join.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/header.css" type="text/css"
-	media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css"
-	media="screen" />
-<title>Insert title here</title>
-=======
 <link rel="stylesheet" href="c_join_css/join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="c_join_css/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
 <title>회원가입</title>
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step4.jsp
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
 <body onload="member_check();">
 
-<<<<<<< HEAD:WebContent/join/join_step4.jsp
-	<%@include file="../common/header.jsp"%>
-	<div id="conainer">
-		<div id="nav">
-			<div class="nav_txt">
-				<p>
-					<a href="/index.php">Home</a> <span class="padd">&gt;</span> <span>회원가입</span>
-				</p>
-			</div>
-		</div>
-		<div id="content">
-			<div class="tit_box">
-				<h2>회원가입</h2>
-				<p class="tit_txt">
-					성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span>
-				</p>
-				<script type="text/javascript"
-					src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-				<script src="/common/js/weather.js" type="text/javascript"></script>
-				<script src="/common/js/common.js" type="text/javascript"></script>
-				<script type="text/javascript">
-=======
 <%@include file="../c_common/header.jsp" %>
     <div  id="conainer">
     	<div id="nav">
@@ -66,7 +34,6 @@
 <script src="/common/js/weather.js" type="text/javascript"></script>
 <script src="/common/js/common.js" type="text/javascript"></script>
 <script type="text/javascript">
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step4.jsp
 	// 텍스트 롤링(공지사항)
 $(function(){
 	$('#news-container').vTicker({ 
@@ -111,12 +78,7 @@ $(function(){
 		<!-- //content : e -->
 
 
-<<<<<<< HEAD:WebContent/join/join_step4.jsp
-		<!-- //wrap : e -->
-		<%@include file="../common/footer.jsp"%>
-=======
 <!-- //wrap : e -->
 <%@include file="../c_common/footer.jsp" %>
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/join_step4.jsp
 </body>
 </html>

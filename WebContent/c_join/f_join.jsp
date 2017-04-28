@@ -4,30 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<<<<<<< HEAD:WebContent/join/f_join.jsp
-<link rel="stylesheet" href="join.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/header.css" type="text/css"
-	media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css"
-	media="screen" />
-=======
 <link rel="stylesheet" href="c_join_css/join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="c_join_css/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/f_join.jsp
 <title>회원가입</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
-<<<<<<< HEAD:WebContent/join/f_join.jsp
-	<%@include file="../common/header.jsp"%>
-=======
 <%@include file="../c_common/header.jsp" %>
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/f_join.jsp
-
 	<div id="conainer">
 		<div id="nav">
 			<div class="nav_txt">
@@ -72,38 +58,6 @@ $(function(){
 
 				<div class="content">
 
-
-<<<<<<< HEAD:WebContent/join/f_join.jsp
-					<ul class="step_cont03">
-						<li class="step01"><span>Step01</span>회원안내</li>
-						<li class="step02"><span>Step02</span>실명확인/약관동의</li>
-						<li class="step03"><span>Step03</span>회원정보입력</li>
-						<li class="step04"><span>Step04</span>가입완료</li>
-					</ul>
-					<div class="tb_box">
-						<div class="ct overf">
-							<h4 class="fl">아이디 및 비밀번호</h4>
-							<p class="star_txt">
-								<span class="color_or">(*)</span>표시는 필수 입력사항입니다
-							</p>
-						</div>
-						<table class="tb_st01">
-							<form name="MemberWriteFm" method="post"
-								action="member_write.php" onSubmit="return false;">
-								<input type="hidden" name="fm_type" value="이랜서"> <input
-									type="hidden" name="fm_format" value="개인"> <input
-									type="hidden" name="fm_str"
-									value="Zm1fbmFtZT0mZm1fanVtaW49LTk5OTk5OSZzdHJWbm89"> <input
-									type="hidden" name="fm_keyword" value=""> <input
-									type="hidden" name="strPageCode1"
-									value="ZU1MMDhkekg5NFEybTBWc0ZRa3B2RDRMSWU="> <input
-									type="hidden" name="fm_join" value="">
-								<colgroup>
-									<col style="width: 16%" />
-									<col style="width: 34%" />
-									<col style="width: 16%" />
-									<col style="width: 34%" />
-=======
 			<ul class="step_cont03">
             	<li class="step01"><span>Step01</span>회원안내</li>
                 <li class="step02"><span>Step02</span>실명확인/약관동의</li>
@@ -697,10 +651,6 @@ $(function(){
 		</div>
 		<!-- 아이디 중복확인 팝업 : E -->
 
-<<<<<<< HEAD:WebContent/join/f_join.jsp
-		<%@include file="../common/footer.jsp"%>
-=======
 <%@include file="../c_common/footer.jsp" %>
->>>>>>> 9cffe6be1feca6357727c1c4afa162d2250a0032:WebContent/c_join/f_join.jsp
 </body>
 </html>
