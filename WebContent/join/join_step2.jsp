@@ -1,38 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="join.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/header.css" type="text/css"
+	media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css"
+	media="screen" />
 <title>Insert title here</title>
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../common/header.js"></script>
 </head>
 <body>
-<%@include file="../common/header.jsp" %>
+	<%@include file="../common/header.jsp"%>
 
-    <div  id="conainer">
-    	<div id="nav">
-        	<div class="nav_txt">
-            	<p>
-                	<a href="/index.php">Home</a>
-                    <span class="padd">&gt;</span>
-                	<span>회원가입</span>
-            	</p>
-            </div>
-        </div>
-        <div id="content">
-        	<div class="tit_box">
-            	<h2>회원가입</h2>
-                <p class="tit_txt">성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span></p>
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="/common/js/weather.js" type="text/javascript"></script>
-<script src="/common/js/common.js" type="text/javascript"></script>
-<script type="text/javascript">
+	<div id="conainer">
+		<div id="nav">
+			<div class="nav_txt">
+				<p>
+					<a href="/index.php">Home</a> <span class="padd">&gt;</span> <span>회원가입</span>
+				</p>
+			</div>
+		</div>
+		<div id="content">
+			<div class="tit_box">
+				<h2>회원가입</h2>
+				<p class="tit_txt">
+					성공적인 프로젝트를 원하시나요?<span>검증된 IT 인재가 대기중입니다.</span>
+				</p>
+				<script type="text/javascript"
+					src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+				<script src="/common/js/weather.js" type="text/javascript"></script>
+				<script src="/common/js/common.js" type="text/javascript"></script>
+				<script type="text/javascript">
 	// 텍스트 롤링(공지사항)
 $(function(){
 	$('#news-container').vTicker({ 
@@ -52,20 +55,20 @@ $(function(){
 });
 
 </script>
-				
-            </div>
-            <!-- //tit_box : e -->
+
+			</div>
+			<!-- //tit_box : e -->
 			<ul class="step_cont02">
-            	<li class="step01"><span>Step01</span>회원안내</li>
-                <li class="step02"><span>Step02</span>실명확인/약관동의</li>
-                <li class="step03"><span>Step03</span>회원정보입력</li>
-                <li class="step04"><span>Step04</span>가입완료</li>
-            </ul>
-           <div class="form">
-           		<h4>회원약관 동의</h4>
+				<li class="step01"><span>Step01</span>회원안내</li>
+				<li class="step02"><span>Step02</span>실명확인/약관동의</li>
+				<li class="step03"><span>Step03</span>회원정보입력</li>
+				<li class="step04"><span>Step04</span>가입완료</li>
+			</ul>
+			<div class="form">
+				<h4>회원약관 동의</h4>
 				<form name="lawchkform">
-                <div class="inp_text">
-                	<textarea class="txt_area03" readonly>제1장 총   칙
+					<div class="inp_text">
+						<textarea class="txt_area03" readonly>제1장 총   칙
 
 
 
@@ -545,17 +548,17 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 ② 본 약관의 시행일은 2014년 05월 2일이며, 7일 동안 회사 홈페이지
 
 (http://www.dreamlancer1TO1.co.kr)에서 공지한 후에 2014년 05월 09일부터 그 효력이 발생됩니다.</textarea>
-                </div>
-                <p>
-                	<input type="checkbox" id="chk_law" name="chk_law" value="y" class="ab"/>
-                	<label for="chk_law" >회원약관에 동의합니다.</label>
-                </p>
-           </div>
-           <!-- //form :e  -->
-           <div class="form">
-           		<h4>드림랜서 개인정보 보호정책</h4>
-                <div class="inp_text">
-                	<textarea  class="txt_area03" readonly>(주)드림랜서(www.dreamlancer1TO1.co.kr / 이하 “회사“라 한다)는 통신비밀보호법, 전기통신사업법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권익 보호에 최선을 다하고 있습니다.
+					</div>
+					<p>
+						<input type="checkbox" id="chk_law" name="chk_law" value="y"
+							class="ab" /> <label for="chk_law">회원약관에 동의합니다.</label>
+					</p>
+			</div>
+			<!-- //form :e  -->
+			<div class="form">
+				<h4>드림랜서 개인정보 보호정책</h4>
+				<div class="inp_text">
+					<textarea class="txt_area03" readonly>(주)드림랜서(www.dreamlancer1TO1.co.kr / 이하 “회사“라 한다)는 통신비밀보호법, 전기통신사업법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권익 보호에 최선을 다하고 있습니다.
 
 회사는 개인취급 방침을 홈페이지 하단 메뉴에 공개함으로써 이용자들이 언제나 용이하게 보실 수 있도록 조치하고 있습니다.
 
@@ -590,14 +593,14 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 첫째, 회사는 회원가입, 원활한 고객상담, 각종 서비스의 제공을 위해 최초 회원가입 당시 아래와 같은 개인정보를 수집하고 있습니다.
 
-<개인회원 가입 시(준회원)>
+<개인회원 가입시(준회원)>
 - 필수항목 : 성명, 주민등록번호, 주소, 휴대폰번호, 이메일주소, 아이디, 비밀번호, 본인확인문답
 - 선택사항 : 자택 전화번호, 실제 거주지주소, 개인이력. 학력, 프로젝트 수행경력, 포트폴리오
 
 <개인회원 정회원 전환 시>
 - 추가 필수항목 : 은행명, 계좌번호, 예금주명
 
-<기업회원 가입 시(준회원)>
+<기업회원 가입시(준회원)>
 - 필수항목 : 회사명, 사업자등록번호, 회사 주소, 업종, 대표자명, 대표 전화번호, 대표 팩스번호, 담당자 성명, 담당자 주민등록번호, 담당자 휴대폰번호, 담당자 이메일주소, 담당자 부서/직위
 - 선택사항 : 창립일, 회사 홈페이지, 사원수(보유기술 및 인력현황), 회사소개, 프로젝트 수행실적
 
@@ -801,23 +804,23 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 
 - 공고일자 : 2014년 4월 29일
 - 시행일자 : 2014년 5월 6일</textarea>
-                </div>
-           </div>
-           <!-- //form :e  -->
-           <div class="form">
-           		<h4>드림랜서 개인정보 수집동의</h4>
-                <div class="inp_text">
-                	<textarea class="txt_area03" readonly>1. 수집하는 개인정보의 항목
+				</div>
+			</div>
+			<!-- //form :e  -->
+			<div class="form">
+				<h4>드림랜서 개인정보 수집동의</h4>
+				<div class="inp_text">
+					<textarea class="txt_area03" readonly>1. 수집하는 개인정보의 항목
 가. 회사는 회원가입, 원활한 고객상담, 각종 서비스의 제공을 위해 최초 회원가입 당시 아래와 같은 개인정보를 수집하고 있습니다.
 
-<개인회원 가입 시(준회원)>
+<개인회원 가입시(준회원)>
 - 필수항목 : 성명, 주민등록번호, 주소, 휴대폰번호, 이메일주소, 아이디, 비밀번호, 본인확인문답
 - 선택사항 : 자택 전화번호, 실제 거주지주소, 개인이력. 학력, 프로젝트 수행경력, 포트폴리오
 
 <개인회원 정회원 전환 시>
 - 추가 필수항목 : 은행명, 계좌번호, 예금주명
 
-<기업회원 가입 시(준회원)>
+<기업회원 가입시(준회원)>
 - 필수항목 : 회사명, 사업자등록번호, 회사 주소, 업종, 대표자명, 대표 전화번호, 대표 팩스번호, 담당자 성명, 담당자 주민등록번호, 담당자 휴대폰번호, 담당자 이메일주소, 담당자 부서/직위
 - 선택사항 : 창립일, 회사 홈페이지, 사원수(보유기술 및 인력현황), 회사소개, 프로젝트 수행실적
 
@@ -870,77 +873,76 @@ kr)를 통하여 제공하는 e-marketplace서비스(이하“서비스”라고
 - 방문에 관한 기록
 보존 이유 : 통신비밀보호법
 보존 기간 : 3개월</textarea>
-                </div>
-                <p>
-                	<input type="checkbox" id="chk_law2" name="chk_law2" value="y" class="ab" />
-                	<label for="chk_law2" >개인정보 보호정책 및 개인정보 수집에 동의합니다.</label>
-                </p>
-           </div>
-		   <div>
-			<p>
-				<input type="checkbox" id="all" name="all" class="check-all" />
-				<label for="all">전체 동의</label>
-            </p>
-		   </div>
-           <!-- //form :e  -->
-		   <form name="form_ipin" method="post">
-			<input type="hidden" name="m" value="pubmain">
-			<input type="hidden" name="enc_data" value="">
-			<input type="hidden" name="param_r1" value="드림랜서">
-			<input type="hidden" name="param_r2" value="개인">
-            <div class="btn_box">
-            	<a href="javascript:jsSubmit();" class="btn_check04">회원가입</a>
-            </div>
-			<input type="hidden" name="in_tp_bit" value="0">
+				</div>
+				<p>
+					<input type="checkbox" id="chk_law2" name="chk_law2" value="y"
+						class="ab" /> <label for="chk_law2">개인정보 보호정책 및 개인정보 수집에
+						동의합니다.</label>
+				</p>
+			</div>
+			<div>
+				<p>
+					<input type="checkbox" id="all" name="all" class="check-all" /> <label
+						for="all">전체 동의</label>
+				</p>
+			</div>
+			<!-- //form :e  -->
+			<form name="form_ipin" method="post">
+				<input type="hidden" name="m" value="pubmain"> <input
+					type="hidden" name="enc_data" value=""> <input
+					type="hidden" name="param_r1" value="드림랜서"> <input
+					type="hidden" name="param_r2" value="개인">
+				<div class="btn_box">
+					<a href="javascript:jsSubmit();" class="btn_check04">회원가입</a>
+				</div>
+				<input type="hidden" name="in_tp_bit" value="0">
 			</form>
 			<form name="vnoform" method="post">
-				<input type="hidden" name="enc_data">
-				<input type="hidden" name="fm_type" value="드림랜서">
-				<input type="hidden" name="fm_format" value="">
-				<input type="hidden" name="fm_str" value="">
+				<input type="hidden" name="enc_data"> <input type="hidden"
+					name="fm_type" value="드림랜서"> <input type="hidden"
+					name="fm_format" value=""> <input type="hidden"
+					name="fm_str" value="">
 			</form>
 		</div>
-        <!-- //content : e -->
+		<!-- //content : e -->
 
 
-    <!-- //container : e -->
+		<!-- //container : e -->
 
 
- 		<form method="post" name="HiddenFrame" style="display:inline;" onSubmit="return false;">
-			<input type="hidden" name="fm_type" value="">
-			<input type="hidden" name="fm_format" value="">
+		<form method="post" name="HiddenFrame" style="display: inline;"
+			onSubmit="return false;">
+			<input type="hidden" name="fm_type" value=""> <input
+				type="hidden" name="fm_format" value="">
 		</form>
 		<form name="form1" action="hs_cnfrm_popup2.php" method="post">
-            <input type="hidden" name="fm_type" value="드림랜서">
-			<input type="hidden" name="fm_format" value="개인">
+			<input type="hidden" name="fm_type" value="드림랜서"> <input
+				type="hidden" name="fm_format" value="개인">
 		</form>
 		<!-- 본인확인 처리결과 정보 -->
-		<form name="kcbResultForm" method="post" >
-			<input type="hidden" name="idcf_mbr_com_cd" 		value="" 	/>
-			<input type="hidden" name="hs_cert_svc_tx_seqno" 	value=""	/>
-			<input type="hidden" name="hs_cert_rqst_caus_cd" 	value="" 	/>
-			<input type="hidden" name="result_cd" 				value="" 	/>
-			<input type="hidden" name="result_msg" 				value="" 	/>
-			<input type="hidden" name="cert_dt_tm" 				value="" 	/>
-			<input type="hidden" name="di" 						value="" 	/>
-			<input type="hidden" name="ci" 						value="" 	/>
-			<input type="hidden" name="name" 					value="" 	/>
-			<input type="hidden" name="birthday" 				value="" 	/>
-			<input type="hidden" name="gender" 					value="" 	/>
-			<input type="hidden" name="nation" 					value="" 	/>
-			<input type="hidden" name="tel_com_cd" 				value="" 	/>
-			<input type="hidden" name="tel_no" 					value="" 	/>
-			<input type="hidden" name="return_msg" 				value="" 	/>
-			<input type="hidden" name="fm_type" value="드림랜서">
+		<form name="kcbResultForm" method="post">
+			<input type="hidden" name="idcf_mbr_com_cd" value="" /> <input
+				type="hidden" name="hs_cert_svc_tx_seqno" value="" /> <input
+				type="hidden" name="hs_cert_rqst_caus_cd" value="" /> <input
+				type="hidden" name="result_cd" value="" /> <input type="hidden"
+				name="result_msg" value="" /> <input type="hidden"
+				name="cert_dt_tm" value="" /> <input type="hidden" name="di"
+				value="" /> <input type="hidden" name="ci" value="" /> <input
+				type="hidden" name="name" value="" /> <input type="hidden"
+				name="birthday" value="" /> <input type="hidden" name="gender"
+				value="" /> <input type="hidden" name="nation" value="" /> <input
+				type="hidden" name="tel_com_cd" value="" /> <input type="hidden"
+				name="tel_no" value="" /> <input type="hidden" name="return_msg"
+				value="" /> <input type="hidden" name="fm_type" value="드림랜서">
 			<input type="hidden" name="fm_format" value="개인">
 		</form>
-        <!-- footer02 : e -->
-    </div>
-    <!-- footer_wrap : e  -->
-</div>
+		<!-- footer02 : e -->
+	</div>
+	<!-- footer_wrap : e  -->
+	</div>
 
-<!-- //wrap : e -->
+	<!-- //wrap : e -->
 
-<%@include file="../common/footer.jsp" %>
+	<%@include file="../common/footer.jsp"%>
 </body>
 </html>

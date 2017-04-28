@@ -1,15 +1,17 @@
 @CHARSET "EUC-KR";
-#sponsor{
-	border:1px solid gray;
+
+#sponsor {
+	border: 1px solid gray;
 	background-color: lightgray;
-	
 }
-#sponsor h3{
+
+#sponsor h3 {
 	margin-left: 150px;
-	margin-top:30px;
+	margin-top: 30px;
 }
-#sponsor img{
-	display:block;
+
+#sponsor img {
+	display: block;
 	margin-left: 100px;
 	padding: 50px;
 }
