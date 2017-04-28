@@ -3,25 +3,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- 
 <link rel="stylesheet" href="../common/header.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="../mypage_free_css/myInfo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../common/footer.css" type="text/css" media="screen" /> -->
+<link rel="stylesheet" href="f_mypage_css/myInfo.css" type="text/css" media="screen" />
 
 <title>내 정보</title>
 
 <!-- <script type="text/javascript"
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
 <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script> 
-<script src="../common/header.js"></script>
-<script src="js/myInfo.js"></script>
-<script src="js/my.js"></script>
+<script src="../c_common/header.js"></script>
+<script src="f_mypage_js/myInfo.js"></script>
+<script src="f_mypage_js/my.js"></script>
 
 </head>
 <body>
 
 
-<%@include file="../common/header.jsp" %>
+<%@include file="../c_common/header.jsp" %>
 
 <div class="left_menu">
 	<div class="left_menu_title">
@@ -645,7 +645,7 @@
 
 </section>
             
-            <%@include file="../common/footer.jsp" %> 
+            <%@include file="../c_common/footer.jsp" %> 
 
 </body>
 </html>
