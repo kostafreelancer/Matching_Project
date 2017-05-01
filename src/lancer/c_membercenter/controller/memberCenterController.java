@@ -11,7 +11,7 @@ import lancer.c_membercenter.action.ActionForward;
 import lancer.c_membercenter.action.memberCenter_action;
 
 
-@WebServlet(".*mc")
+@WebServlet("*.mc")
 public class memberCenterController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

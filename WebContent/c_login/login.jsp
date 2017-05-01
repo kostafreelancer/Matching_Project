@@ -33,12 +33,12 @@
                 	<div class="log_box">
                     	<div class="log_lef">
                         	<p>로그인을 위해 아이디와 패스워드를 입력해 주세요.</p>
-							<form method="post" name="MemberLoginFm" action="/00_include/global/login.php" onSubmit="return false;">
+							<form method="post" name="MemberLoginFm" action="checking.c_login" >
 							<input type="hidden" name="fm_url" value="">
 							<input type="hidden" name="fm_str" value="">
                             <label for="fm_id" class="tx_skip">아이디 입력</label>
-                            <div><input type="text" id="fm_id"  class="log_inp01" name="fm_id" /></div>
-                            <div><input type="password" id="fm_passwd" class="log_inp02" name="fm_passwd" onKeyPress="javascript:LoginEnterCheck();" /></div>
+                            <div><input type="text" id="fm_id"  class="log_inp01" name="c_id" /></div>
+                            <div><input type="password" id="fm_passwd" class="log_inp02" name="pwd" onKeyPress="javascript:LoginEnterCheck();" /></div>
                             <label for="fm_passwd" class="tx_skip">비밀번호 입력</label>
                             <div class="login_check">
                                 <p class="fl">
@@ -48,7 +48,8 @@
                                 <a href="javascript:FindID();" class="pass_find">아이디 패스워드 찾기 &gt;</a>
                              </div>
                             <p>
-                                <a href="javascript:LoginCheckIt();" class="btn_login">로그인</a>
+                                <!-- <a href="javascript:LoginCheckIt();" class="btn_login">로그인</a> -->
+                                <input type="submit" value="로그인 ">
 								<a href="/08_MELC/member/member_join.php" class="btn_join">회원가입</a>
                             </p>
 							</form>

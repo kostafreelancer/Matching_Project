@@ -1,3 +1,8 @@
 /lancer/
-/mybatis-config.xml
 /mybatis-config_c_membercenter.xml
+/mybatis-config_f_main.xml
+/mybatis-config_login.xml
+/action/
+/controller/
+/mapper/
+/model/
